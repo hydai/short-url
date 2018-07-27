@@ -25,7 +25,6 @@ func main() {
 	err = viper.Unmarshal(&configuration)
 	utils.ErrorOrNil(err)
 
-	fmt.Print(configuration.Server.Port)
 	sqlConfig := fmt.Sprintf(
 		"%s:%s@/%s",
 		configuration.Database.User,
