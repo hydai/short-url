@@ -1,0 +1,9 @@
+server:
+    port: :9000
+    caFilePath: ./ca.pem
+    keyFilePath: ./key.key
+
+database:
+    user: hydai
+    password: 1234
+    dbname: example
